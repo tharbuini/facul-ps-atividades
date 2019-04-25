@@ -13,8 +13,8 @@ function Q2() {
     var x = Number.parseFloat(document.getElementById('x').value);
     var y = Number.parseFloat(document.getElementById('y').value);
     // Segue aqui seu código
-   console.log(‘ Cateto 1 = ‘ + x)
-   console.log(‘ Cateto 2 = ‘ + y)
+   console.log(‘Cateto 1 = ‘ + x)
+   console.log(‘Cateto 2 = ‘ + y)
    console.log(‘Hipotenusa = ’ + Math.sqrt(Math.pow(x,2) + (Math.pow(y,2)))
 }
 
