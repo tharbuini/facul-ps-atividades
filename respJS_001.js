@@ -3,7 +3,7 @@ function Q1() {
     var x = Number.parseInt(document.getElementById('x').value);
     var y = Number.parseInt(document.getElementById('y').value);
     // Segue aqui seu código
-    console.log(‘X / Y = ‘ + x + ‘ / ‘ + y);
+    console.log(‘X/Y = ‘ + x + ‘ / ‘ + y);
     console.log(‘Quociente = ‘ + Math.floor(x / y));
     console.log(‘Resto = ‘ + (x % y));
 }
@@ -23,45 +23,51 @@ function Q3() {
     var aux = document.getElementById('profissoes');
     var profissao = aux.options[aux.selectedIndex].text;
     // Segue aqui seu código
-switch (profissoes) {
-  case 'Ator':
-    console.log('Masculino’);
-    break;
-  case ‘Atriz’:
-    console.log(‘Feminino’);
-    break;
-  case ‘Bombeiro’:
-    console.log(‘Masculino’);
-    break;
-  case ‘Músico’:
-    console.log(‘Masculino’);
-    break;
-  case ‘Musicista’:
-    console.log(‘Indefinido’);
-    break;
-  case ‘Enfermeira’:
-    console.log(‘Feminino’);
-    break;
-  case ‘Médico’:
-    console.log(‘Masculino’);
-    break;
-  case ‘Médica’:
-    console.log(‘Feminino’);
-    break;
-  case ‘Engenheiro’:
-    console.log(‘Masculino’);
-    break;
-  case ‘Engenheira’:
-    console.log(‘Feminino’);
-    break;
-  case ‘Presidente’:
-    console.log(‘Indefinido’);
-    break;
+    switch (profissoes) {
+      case 'Ator':
+        console.log('Masculino’);
+        break;
+      case ‘Atriz’:
+        console.log(‘Feminino’);
+        break;
+      case ‘Bombeiro’:
+        console.log(‘Masculino’);
+        break;
+      case ‘Músico’:
+        console.log(‘Masculino’);
+        break;
+      case ‘Musicista’:
+        console.log(‘Indefinido’);
+        break;
+      case ‘Enfermeira’:
+        console.log(‘Feminino’);
+        break;
+      case ‘Médico’:
+        console.log(‘Masculino’);
+        break;
+      case ‘Médica’:
+        console.log(‘Feminino’);
+        break;
+      case ‘Engenheiro’:
+        console.log(‘Masculino’);
+        break;
+      case ‘Engenheira’:
+        console.log(‘Feminino’);
+        break;
+      case ‘Presidente’:
+        console.log(‘Indefinido’);
+        break;
+   }
 }
 
-     
-
+function Q4() {
+    console.log('Q4');
+    var a_str = document.getElementById('a').value;
+    var b_str = document.getElementById('b').value;
+    var c_str = document.getElementById('c').value;
+    // Segue aqui seu código
+    
 }
 
-
+    
 
