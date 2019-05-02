@@ -4,8 +4,8 @@ function Q1() {
     var y = Number.parseInt(document.getElementById('y').value);
     // Segue aqui seu código
     console.log(‘X / Y:  ‘ + x + ‘ / ‘ + y);
-    console.log(‘Quociente = ‘ + Math.floor(x/y));
-    console.log(‘Resto = ‘ (x%y));
+    console.log(‘Quociente = ‘ + Math.floor(x / y));
+    console.log(‘Resto = ‘ (x % y));
 }
 
 function Q2() {
