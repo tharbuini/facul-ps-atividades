@@ -17,7 +17,7 @@ function Q2() {
     var x = Number.parseFloat(document.getElementById('x').value);
     var y = Number.parseFloat(document.getElementById('y').value);
     // Segue aqui seu código com functions auxiliares
-    console.log('Cateto 1 = ' + x)
+    const cateto1 = x => 'Cateto 1 = ' + x;
     console.log('Cateto 2 = ' + y)
     console.log('Hipotenusa = ' + Math.sqrt(Math.pow(x, 2) + Math.pow(y, 2)))
 }
@@ -113,10 +113,10 @@ function Q5() {
                 console.log('Magro')
             };
             if (imc > 18.5 && imc <= 24.9) {
-                console.log('Sarado')
+                console.log('"Safe"')
             };
             if (imc > 24.9 && imc <= 29.9) {
-                console.log('Rechonchudo')
+                console.log('Gordinho')
             };
             if (imc > 29.9) {
                 console.log('Obeso')
@@ -130,10 +130,10 @@ function Q5() {
                 console.log('Magra')
             };
             if (imc > 18.5 && imc <= 24.9) {
-                console.log('Sarada')
+                console.log('"Safe"')
             };
             if (imc > 24.9 && imc <= 29.9) {
-                console.log('Rechonchuda')
+                console.log('Gordinha')
             };
             if (imc > 29.9) {
                 console.log('Obesa')
