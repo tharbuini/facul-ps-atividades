@@ -2,14 +2,14 @@ function Q1() {
     console.log('Q1');
     var x = Number.parseInt(document.getElementById('x').value);
     var y = Number.parseInt(document.getElementById('y').value);
-    // Segue aqui seu código
+    // Segue aqui seu código com functions auxiliares
     const valorx = x => 'X = ' + x;
     const valory = y => 'Y = ' + y;
     const quociente = (x, y) => 'Quociente = ' + Math.floor(x / y);
     const resto = (x, y) => 'Resto = ' + (x % y);
     const resposta1 = valorx(x) + valory(y) + quociente(x, y) + resto(x, y);
-    document.getElementById('RQ1').innerHTML = "Answer in text:" + resposta1/
-    
+    document.getElementById('RQ1').innerHTML = "Answer in text:" + resposta1;
+
 }
 
 function Q2() {
