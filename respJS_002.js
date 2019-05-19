@@ -2,13 +2,12 @@ function Q1() {
     console.log('Q1');
     var x = Number.parseInt(document.getElementById('x').value);
     var y = Number.parseInt(document.getElementById('y').value);
-    // Segue aqui seu código com functions auxiliares
     const valorx = x => 'X = ' + x;
     const valory = y => 'Y = ' + y;
     const quociente = (x, y) => 'Quociente = ' + Math.floor(x / y);
     const resto = (x, y) => 'Resto = ' + (x % y);
     const resposta1 = valorx(x) + valory(y) + quociente(x, y) + resto(x, y);
-    document.getElementById('RQ1').innerHTML = 'Answer in text:' + resposta1;
+    document.getElementById('RQ1').innerHTML = "Answer in text:" + resposta1;
 
 }
 
@@ -18,8 +17,11 @@ function Q2() {
     var y = Number.parseFloat(document.getElementById('y').value);
     // Segue aqui seu código com functions auxiliares
     const cateto1 = x => 'Cateto 1 = ' + x;
-    console.log('Cateto 2 = ' + y)
-    console.log('Hipotenusa = ' + Math.sqrt(Math.pow(x, 2) + Math.pow(y, 2)))
+    const cateto2 = y => 'Cateto 2 = ' + y;
+    const hipotenusa = (x, y) => ' Hipotenusa = ' + Math.sqrt(x * x + y * y);
+    const resposta2 = cateto1(x) + cateto2(y) + hipotenusa(x, y);
+    document.getElementById('RQ2').innerHTML = "Answer in text:" + resposta2;
+
 }
 
 function Q3() {
