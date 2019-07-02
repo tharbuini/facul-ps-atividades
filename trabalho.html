@@ -29,26 +29,32 @@
     <div class="alert alert-danger" data-toggle="tooltip" title="Avisamos!">
         <strong>Cuidado!</strong> O que acontecerá daqui em diante está por sua conta e risco.
     </div>
-    <div class="form" class="container-fluid">
-        <form>
-            Quantidade de matérias feitas:
-            <input type="number" name="matérias" min="1" max="60">
-            <button type="button" class="btn btn-outline-danger">Enviar</button>
-          </form>
-        </div>
-        <div>
-            <form action="/action_page.php">
-                <div class="form-group">
-                  <label for="usr">Nota:</label>
-                  <input type="text" class="form-control" id="usr" name="username">
-                </div>
-                <div class="form-group">
-                  <label for="pwd">Peso:</label>
-                  <input type="password" class="form-control" id="pwd" name="password">
-                </div>
-                <button type="button" class="btn btn-outline-danger">Enviar</button>
-              </form>
-        </div><br>
+    <div class="container">
+            <ul class="list-group">
+              <li class="list-group-item">
+                  <form>
+                      Quantidade de matérias feitas:
+                      <input type="number" name="matérias" min="1" max="60">
+                      <button type="button" class="btn btn-outline-danger">Enviar</button>
+                  </form></li>
+              <li class="list-group-item">
+                  <div>
+                      <form action="/action_page.php">
+                          <div class="form-group">
+                            <label for="usr">Nota:</label>
+                            <input type="text" class="form-control" id="usr" name="username">
+                          </div>
+                          <div class="form-group">
+                            <label for="pwd">Peso:</label>
+                            <input type="password" class="form-control" id="pwd" name="password">
+                          </div>
+                          <button type="button" class="btn btn-outline-danger">Enviar</button>
+                       </form>
+                  </div>
+              </li>
+              
+            </ul>
+    </div><br>
         
         <button type="button" class="btn btn-outline-danger" data-toggle="modal" data-target="#myModal">
             Clique caso seu CRA for menor que 45!
@@ -86,9 +92,9 @@
                   Caso necessitar de ajuda em emergência, clique no botão "Ajuda".
                 </div>
         </div>
-        
-        <footer class="blockquote-footer">Made by Arthur, Pedro & Thiago<i class="fas fa-coffee"></i></footer><div class="spinner-grow text-danger"></div>
-        
+        <div class="jumbotron text-center" style="margin-bottom:0">
+            <footer class="blockquote-footer">Made by Arthur, Pedro & Thiago<i class="fas fa-coffee"></i></footer><div class="spinner-grow text-danger"></div>
+        </div>
 </body>
 
 </html>
